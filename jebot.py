@@ -19,7 +19,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm Telegraph Bot
 
-I can upload photos or videos to telegraph. Made by @ImJanindu 🇱🇰
+I can upload photos or videos to telegraph. Made by @sanithbimsara 🇱🇰
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -27,7 +27,7 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs")
+                                            "Channel", url="https://t.me/##")
                                     ],[
                                       InlineKeyboardButton(
                                             "Source Code", url="https://github.com/ImJanindu/JETelegraphBot")
@@ -85,7 +85,7 @@ async def about(client, message):
             disable_web_page_preview=True,        
             parse_mode="html")
 
-@Jebot.on_message(filters.photo)
+@Jebot.on_message(filters.photo filters.txt)
 async def telegraphphoto(client, message):
     msg = await message.reply_text("Uploading To Telegraph...")
     download_location = await client.download_media(
