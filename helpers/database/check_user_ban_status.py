@@ -1,4 +1,4 @@
-import info
+import config
 import datetime
 from helpers.database.access_db import db
 from pyrogram import Client
