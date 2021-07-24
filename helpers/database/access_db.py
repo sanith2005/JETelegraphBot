@@ -1,3 +1,4 @@
+import config
 from helpers.database.database import Database
 
 db = Database(info."mongodb+srv://Erichdaniken:Erichdaniken@cluster0.tf4rj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", info."1BVtsOHsBuxl7S_i4MPmJ3YxJDzLTJVj2EQRYS-IoXZKXiVolDxetnErVdgjpLty-nQIUn5xRXnlPY2TW64WBiB30bcNdkklTcfSO-nj0eTWeAK5_973fuby3RKUZkdfM5AS4tHO4PKYV0BYLR0_senDwAJpsIGEdC2QL129l6hed6bym7YzMapm6lIsa_OZEcBjvF_TlMhmx3nHJob2VB6-0aQrAaHGgF28Bi5zdrl0SpHWXjTE0QJupwf6BTR9CKueP7c7i9k7mtFnvD7dIFqa_0mJCoR_pdNkkbZdZp6nJsWJsekF3vdavOdhWUtY7CRd7IV_LB1CslortjKQRuru--vuDAyo=")
